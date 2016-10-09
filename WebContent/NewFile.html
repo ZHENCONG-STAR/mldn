@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("img").on("mouseover",function(){
+				$(this).fadeOut(1000,function(){
+					$(this).fadeIn(100);
+				})
+			})
+		})
+	</script>
+</head>
+<body>
+	<div><img src="images/ball.png"></div>
+	<div><h1>hello world !!</h1></div>
+	 
+</body>
+</html>
